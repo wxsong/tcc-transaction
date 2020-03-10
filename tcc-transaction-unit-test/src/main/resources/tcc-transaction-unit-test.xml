@@ -59,7 +59,7 @@
     <constructor-arg index="1" value="127.0.0.1"/>
     <constructor-arg index="2" value="6379" type="int"/>
     <constructor-arg index="3" value="1000" type="int"/>
-    <!--<constructor-arg index="4" value="${redis.password}"/>-->
+    <constructor-arg index="4" value="${redis.password}"/>
     </bean>
 
     <!--<bean id="transactionRepository" class="org.mengyun.tcctransaction.repository.FileSystemTransactionRepository">-->
